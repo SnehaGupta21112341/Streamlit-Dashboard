@@ -5,7 +5,7 @@ import plotly.express as px
 st.set_page_config(layout = "wide")
 
 #df = pd.read_csv(StudentsPerformance.csv)
-df='https://raw.githubusercontent.com/SnehaGupta21112341/st-hello-world/main/StudentsPerformance.csv"
+df= pd.read_csv("https://raw.githubusercontent.com/SnehaGupta21112341/st-hello-world/main/StudentsPerformance.csv")
 df['Average_marks'] = df.mean(axis=1)
 
 st.title(':green[Student Dataset] Analysis :girl: :boy: :bar_chart:') 
